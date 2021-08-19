@@ -13,7 +13,7 @@ if(!isset($_SESSION['user'])){
 
 <h1>Hi, this is my index</h1>
 <h2>This Is my first change</h2>
-This is my thirst change
+This is my thirst change  Modificacion
 and this is my fourth change
 
 Welcome <?php echo $_SESSION['user'];?><br><br>

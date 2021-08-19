@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		session_start();
 		$_SESSION['user'] = $name;
 		if(isset($_SESSION['user'])){
-			//echo "Bienvenido: " .$name;
+			echo "Bienvenido bitch: " .$name;
 			header("Location: index.php");
 		}
 	}elseif ($nr == 0) {
